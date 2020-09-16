@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/style.css">
   <title>Sizing Tracks in CSS Grid!</title>
+
+  <style>
+    .container {
+      display: grid;
+      height: calc(100vh - 100px);
+      grid-gap: 20px;
+      grid-template-columns: auto repeat(3, 1fr);
+      grid-template-rows: 1fr 75% repeat(3, 1fr);
+    }
+  </style>
 </head>
 
 <body>
@@ -27,12 +37,6 @@
     <div class="item">15</div>
   </div>
 
-  <style>
-    .container {
-      display: grid;
-      grid-gap: 20px;
-    }
-  </style>
 </body>
 
 </html>
