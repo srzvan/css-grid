@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/style.css">
   <title>Flexbox vs CSS Grid: Variable Widths on Each Row!</title>
+
+  <style>
+    .flex-container {
+      border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .flex-container>* {
+      flex: 1;
+    }
+  </style>
 </head>
 
 <body>
@@ -20,13 +32,6 @@
     <div class="item">Wes Is Cool</div>
     <div class="item">Short</div>
   </div>
-  <style>
-    .flex-container {}
-
-    .flex-container>* {
-      margin: 10px;
-    }
-  </style>
 </body>
 
 </html>
