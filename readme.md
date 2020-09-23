@@ -1,4 +1,4 @@
-# Finished on 23 september 2020
+# 🎉 Finished on 23 Sept. 2020 🎉
 
 ![](https://res.cloudinary.com/wesbos/image/upload/v1515524452/GRID-social-share_wlfzk3.png)
 
